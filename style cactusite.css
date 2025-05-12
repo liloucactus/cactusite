@@ -1,0 +1,77 @@
+body {
+  font-family: Arial, sans-serif; /* Police de caractères */
+  background-color: #eeeeff; /* Fond de la page */
+  margin: 20px;
+  padding: 20px;
+}
+
+header {
+  background-color: white; /* Couleur de fond de l'en-tête */
+  color: black; /* Couleur du texte dans l'en-tête */
+  text-align: center; /* Centrer le texte */
+  border-radius: 0px;
+  padding: 20px
+}
+
+
+.fond1 {
+  background-image: url("image/fda.png"); /* chemin de ton image */
+  background-size: cover;         /* couvre toute la section */
+  background-position: center;    /* centre l'image */
+  background-repeat: no-repeat;   /* pas de répétition */
+  padding: 100px 20px;            /* espace intérieur */
+  color: white;                   /* texte lisible sur fond foncé */
+}
+
+.fond2 {
+  background-color: transparent;
+  box-shadow: 0 0 0px rgba(250, 224, 255, 0.1); /* Ombre pour donner de la profondeur */
+  color:white;
+  font-size: 50px;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+nav ul {
+  list-style-type: none; /* Supprimer les puces */
+  margin: 20px;
+  padding: 20px;
+}
+
+p {
+  margin: 20px; /* marge de 20px autour du paragraphe */
+}
+nav ul li {
+  display: inline; /* Disposer les liens en ligne */
+  margin-right: 20px;
+}
+
+nav a {
+  color: white; /* Couleur des liens */
+  text-decoration: none; /* Supprimer le souligné des liens */
+  font-size: 18px;
+}
+
+section {
+  padding: 40px;
+  margin: 40px;
+  background-color: transparent;
+  box-shadow: 0 0 0px rgba(250, 224, 255, 0.1); /* Ombre pour donner de la profondeur */
+  font-size: 50px;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+  color: white
+}
+
+
+hr {
+  border: none;
+  height: 2px;
+  background-color: #8988a5;
+  margin: 40px 0;
+}
+footer {
+  text-align: center;
+  background-color: #161626;
+  color: white;
+  padding: 10px;
+}
